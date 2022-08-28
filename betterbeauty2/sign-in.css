@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+  height: 100%;
+  width: 99%;
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  text-align: center;
+}
+input[type=text],input[type=password]{
+width: 315px;
+padding: 15px;
+margin: 5px 0 12px 0;
+display: inline-block;
+border: 2px solid #ffffff;;
+background:#f3ecf2;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+border-radius: 4px;
+}  
+.cancelbtn{
+  padding: 14px 20px;
+  background:#dbadd9;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 4px;
+}
+.cancelbtn, .signupbtn{
+  width: 20%;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+ border: 2px solid #ffffff;
+  border-radius: 4%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.container{
+  padding: 16px;
+}
+button{
+  font-family: 'Poppins', sans-serif;
+  background-color:#dbadd9;
+  border-radius: 4px;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+hr{
+font-family: 'Poppins', sans-serif;
+  border: 1px solid #e5cce4; 
+  margin-bottom: 25px;
+}
+
+.question{
+  float: left;
+  margin-left: 25%;
+  padding: 2% 0% 1% 0%;
+  width: 25%;
+}
+
+.field{
+  display:flex;
+  justify-content: start;
+}
+
+.clearfix button:hover{
+  background-color: #FED8FC;
+  color: black;
+  transition: 0.8s ease-in-out;
+}
+
+/* NAVBAR  CSS */
+
+.navbar{
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: white;
+  position: fixed;
+  padding-bottom: 1.5%;
+  width: 100%;
+}
+
+.announcement {
+  display: inline-block;
+  height: 7%;
+  text-align: center;
+  width: 100%;
+  background: #CE8D66;
+  color: white;
+  font-size: 1em;
+}
+
+.announcement a { 
+  color: #F6F4D2; 
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+}
+
+.title{
+  margin-top: 1.5%;
+}
+
+.none{
+  text-decoration: none;
+  color: black;
+}
+
+.user-in{
+  text-align: center;
+  margin-top: -6.5%;
+  padding-bottom: 5.5%;
+  padding-right: 1.5%;
+}
+
+.user-in a{
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.user-in a:hover{
+  color: #7DB5F5;
+}
+
+.upper-right{
+  float: right;
+  padding: 1% 1.5% 1.5% 1%;
+}
+
+.navbar-a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #C47AC0;
+  font-weight: 700;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.navbar-a:hover{
+  text-decoration: underline;
+}
+
+.testspace{
+ padding-top: 14.5%;
+}
+
+.user-in{
+  text-align: center;
+  margin-top: -6.5%;
+  padding-bottom: 5.5%;
+  padding-right: 1.5%;
+}
+
+.user-in a{
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.user-in a:hover{
+  color: #7DB5F5;
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+}
+
+.title{
+  margin-top: 1.5%;
+}
+

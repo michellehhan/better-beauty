@@ -1,0 +1,96 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Better Beauty</title>
+  <link href="sign-in.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="https://hotemoji.com/images/dl/u/herb-emoji-by-twitter.png">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<nav class="navbar">
+
+  <div class="announcement">
+    <p> 20% Off All Products for Earth Week! <a href="bestsellers.html">See Details > </a></p>
+  </div>
+
+  <h1 class="title"><a class="none" href="index.html">Better Beauty🌿</a> </h1>
+
+  <div class="user-in">
+    <a class="upper-right" href=""><i class="fa-solid fa-bag-shopping fa-lg"></i></a>
+    <a class="upper-right" href=""><i class="fas fa-search fa-lg"></i></a>
+    <a class="upper-right" href="sign-in.html"> SIGN IN </a>
+  </div>
+
+  <div class="navbar-links">
+    <a class="navbar-a" href="bestsellers.html"> BEST SELLERS</a>
+    <a class="navbar-a" href="about.html"> ABOUT US</a>
+    <a class="navbar-a" href="sustainability.html"> SUSTAINABILITY</a>
+    <a class="navbar-a" href="skincare.html"> SKINCARE</a>
+    <a class="navbar-a" href="makeup.html"> MAKEUP</a>
+  </div>
+
+</nav>
+
+
+<body>
+
+  <form name="signin" action="#">
+    <div class="container">
+
+
+      <h2 class="testspace"> Create Account</h2>
+      <hr>
+      <div class="field">
+        <label class="question" for="userName"><b>User Name: </b></label>
+        <input class="answer" type="text" placeholder="Enter User Name" name="userName" required>
+      </div>
+
+      <br>
+
+      <div class="field">
+        <label class="question" for="email"><b>Email: </b></label>
+        <input class="answer" type="text" placeholder="Enter Email" name="email" required>
+      </div>
+
+      <br>
+
+      <div class="field">
+        <label class="question" for="psw"><b>Password: </b></label>
+        <input class="answer" type="password" placeholder="Enter Password" name="psw" required>
+      </div>
+
+      <br>
+
+      <div class="field">
+        <label class="question" for="psw-repeat"><b>Confirm Password: </b></label>
+        <input class="answer" type="password" placeholder="Confirm Password" name="psw-repeat" required>
+      </div>
+
+      <br>
+
+      <div class="fields">
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+      </div>
+
+      <div class="fields">
+        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      </div>
+
+      <div class="clearfix">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn" onclick="doSomething()"> Sign In </button>
+        <p id="signUp" style="display:none;"> You have created an account! </p>
+      </div>
+    </div>
+  </form>
+
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <script src="script.js"></script>
+</body>
+
+</html>
