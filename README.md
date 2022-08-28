@@ -1,4 +1,4 @@
-# Better Beauty 🌸
+# 🌸 Better Beauty 
 final project @ kode with klossy 2022! 
 
 https://betterbeauty.netlify.app/
